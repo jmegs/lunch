@@ -3,11 +3,8 @@ Places = new Mongo.Collection('places');
 if (Meteor.isClient) {
   Template.random.events({
     'click .randomize': function(){
-      var random = Math.random();
-      var result = Places.findOne({"random" : {"$gt" : random}});
-      if(result == null){
-        result = Places.findOne({"random" : {"$lt" : random}});
-      };
+      var random = Math.floor((Math.random() * Places.find().count()) + 1);
+      var result = Places.findOne({ idx : random});
       Session.set('pick', result);
       var pick = Session.get('pick');
     }
@@ -28,7 +25,7 @@ if (Meteor.isClient) {
       var locationVar = event.target.placeLoc.value;
       var descriptionVar = event.target.placeDesc.value;
       var placeCount = Places.find().count() + 1
-      Meteor.call('addPlace', nameVar, locationVar, descriptionVar);
+      Meteor.call('addPlace', nameVar, locationVar, descriptionVar, placeCount);
       
       event.target.reset();
       }
@@ -42,7 +39,7 @@ if (Meteor.isServer){
           name: nameVar,
           location: locationVar,
           description: descriptionVar,
-          idx: PlaceCount
+          idx: placeCount
         }); 
       }
   });
