@@ -1,1 +1,9 @@
 /* CSS declarations go here */
+
+.randomizer {
+	min-height: 150px;
+}
+
+.results {
+	min-height: 75px;
+}
