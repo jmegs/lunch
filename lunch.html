@@ -6,16 +6,17 @@
   <div class="container">
   <h3 class="title">Random Lunch Generator v0.3</h3>
   
-  {{> random}}
-{{> addPlaceForm}}	
+ 	{{> random}}
+	{{> addPlaceForm}}	
+	{{> list}}
 </div> <!--/container-->
 </body>
 
 <template name="random">
-	<button class="btn btn-primary randomize">What's for Lunch?</button>
 	<p><strong>{{pick.name}}</strong></p>
 	<p>{{pick.location}}</p>
 	<p>{{pick.description}}</p>
+	<button class="btn btn-primary randomize">Surprise Me</button>
 </template>
 
 <template name="addPlaceForm">
@@ -34,4 +35,25 @@
 	</div>
 	<button type="submit" class="btn btn-default">Submit</button>
 	</form>
+</template>
+
+<template name="list">
+	<table class="table">
+		<thead>
+			<tr>
+				<th>Name</th>
+				<th>Location</th>
+				<th>Description</th>
+			</tr>
+		</thead>
+		<tbody>
+		{{#each place}}
+		<tr>
+			<td>{{name}}</td>
+			<td>{{location}}</td>
+			<td>{{description}}</td>
+		</tr>
+		{{/each}}
+		</tbody>
+	</table>
 </template>

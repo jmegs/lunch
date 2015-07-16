@@ -15,7 +15,12 @@ if (Meteor.isClient) {
        var pick = Session.get('pick');
        return pick;
     }
+  });
 
+  Template.list.helpers({
+    'place': function(){
+      return Places.find({}, {sort: {name: 1} });
+    }
   });
 
   Template.addPlaceForm.events({
