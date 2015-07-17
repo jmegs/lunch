@@ -1,13 +1,13 @@
 <template name="randomizer">
 	<div class="row randomizer">
 	<div class="results">
-		<strong>{{pick.name}}</strong><br />
-		{{pick.location}} <br />
-		{{pick.description}}
+		<h4><strong>{{pick.name}}</strong></h4>
+		<h4>{{pick.description}}</h4>
+		<h4>{{pick.location}}</h4>
 	</div>
 	<div class="surpriseMe">
 		<button class="button-primary randomize">Surprise Me</button>
 	</div>
-	
+	<a href=" {{pathFor route='list'}} ">See the List</a>
 	</div>
 </template>
