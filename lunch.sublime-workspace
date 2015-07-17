@@ -1,0 +1,599 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"min-",
+				"min-height"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"players",
+				"PlayersList"
+			],
+			[
+				"selected",
+				"selectedPlayer"
+			],
+			[
+				"remove",
+				"removePlayerData"
+			],
+			[
+				"playern",
+				"playerNameVar"
+			],
+			[
+				"insert",
+				"insertPlayerData"
+			],
+			[
+				"fun",
+				"fun	Function"
+			],
+			[
+				"selete",
+				"selectedPlayer"
+			],
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"loc",
+				"location"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"lunch_p",
+				"lunch_places"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "lunch.sublime-project",
+			"settings":
+			{
+				"buffer_size": 45,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/johnme/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+			"settings":
+			{
+				"buffer_size": 228,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 201.0,
+		"last_filter": "syn javas",
+		"selected_items":
+		[
+			[
+				"syn javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"re",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove pac",
+				"Package Control: Remove Package"
+			],
+			[
+				"syn java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"syn ru",
+				"Set Syntax: Ruby"
+			],
+			[
+				"syn rub",
+				"Set Syntax: Ruby"
+			],
+			[
+				"syn r",
+				"Set Syntax: R"
+			],
+			[
+				"syn bash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"syn c",
+				"Set Syntax: C"
+			],
+			[
+				"syn css",
+				"Set Syntax: CSS"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"syn h",
+				"Set Syntax: HTML"
+			],
+			[
+				"syn mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"syn mar",
+				"Set Syntax: Markdown"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"bash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"syn",
+				"Set Syntax: HTML"
+			],
+			[
+				"syn ja",
+				"Set Syntax: Java"
+			],
+			[
+				"syn ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"syn le",
+				"Set Syntax: LESS"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"syn sty",
+				"Set Syntax: Stylus"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"syn htm",
+				"Set Syntax: HTML"
+			]
+		],
+		"width": 388.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/johnme/Documents/Code/lunch"
+	],
+	"file_history":
+	[
+		"/Users/johnme/Downloads/dchh-ep27-30.rss",
+		"/Users/johnme/Documents/Code/lunch/lunch.css",
+		"/Users/johnme/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/johnme/Documents/Code/lunch/.meteor/packages",
+		"/Users/johnme/Documents/Code/random-lunch-generator/js/lunch.js",
+		"/Users/johnme/Library/Application Support/Sublime Text 3/Packages/User/helper",
+		"/Users/johnme/Documents/Code/leaderboard/leaderboard.css",
+		"/Users/johnme/Documents/Code/leaderboard/leaderboard.html",
+		"/System/Library/Frameworks/Social.framework/Versions/A/Headers/SLComposeServiceViewController.h",
+		"/Users/johnme/.bash_profile",
+		"/Users/johnme/Documents/Code/lunch-picker/app.js",
+		"/Users/johnme/Documents/Code/lunch-picker/lunch.js",
+		"/Users/johnme/Documents/Code/lunch-picker/index.html",
+		"/Users/johnme/Documents/Code/lunch-picker/style.css",
+		"/Users/johnme/Library/Application Support/Sublime Text 3/Packages/User/Base File.sublime-settings",
+		"/Users/johnme/Library/Application Support/Sublime Text 3/Packages/Alignment/Base File.sublime-settings",
+		"/Users/johnme/Documents/Code/lunch-picker/lunchPicker.rb",
+		"/Users/johnme/Library/Application Support/Sublime Text 3/Packages/Alignment/Default (OSX).sublime-keymap",
+		"/Users/johnme/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/johnme/Documents/Code/glacier-theme/README.md",
+		"/Users/johnme/Documents/Code/glacier-theme/glacier.tmTheme",
+		"/Users/johnme/Documents/Code/.bash_prompt.sh",
+		"/Users/johnme/Documents/Code/squares.c",
+		"/Users/johnme/Documents/Txt/Service Design - XD Summit",
+		"/Users/johnme/Documents/Txt/Prototypes - XD Summit",
+		"/Users/johnme/Documents/Txt/Experience Modeling - XD Summit",
+		"/Users/johnme/Documents/Code/group4music/css/custom.css",
+		"/Users/johnme/Documents/Code/group4music/index.html",
+		"/Users/johnme/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/johnme/Documents/Samsung/Home_Appliances/HA_worksession_notes",
+		"/Users/johnme/Library/Application Support/Sublime Text 3/Packages/User/Markdown (Standard).sublime-settings",
+		"/Users/johnme/Library/Application Support/Sublime Text 3/Packages/MarkdownEditing/README.md",
+		"/Users/johnme/Desktop/Android Pain Points",
+		"/Users/johnme/Library/Application Support/Sublime Text 3/Packages/MarkdownEditing/Markdown (Standard).sublime-settings",
+		"/Users/johnme/Library/Application Support/Sublime Text 3/Packages/SublimeLinter/Default (OSX).sublime-keymap",
+		"/Users/johnme/Library/Application Support/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/Applications/Microsoft Office 2011/Office/Media/Office Themes/Theme Fonts/HelveticaNeue.xml",
+		"/Users/johnme/Downloads/bootswatch.less",
+		"/Users/johnme/Documents/Code/personal-site-march/index.html",
+		"/Users/johnme/Documents/Code/personal-site-march/css/custom.css",
+		"/Users/johnme/Documents/Code/personal-site-march/css/skeleton.css",
+		"/Users/johnme/Documents/Code/personal-site-march/css/normalize.css",
+		"/Users/johnme/Documents/Code/personal-site-march/css/style.css",
+		"/Users/johnme/Documents/Code/personal-site-march/style.css",
+		"/Users/johnme/Documents/Code/test post please ignore.txt"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"three",
+			"four",
+			"form",
+			"three",
+			"four",
+			")",
+			"mobilecommerce",
+			"place",
+			"##",
+			"Transference",
+			"\n##",
+			"##",
+			", ",
+			"thing",
+			"     -",
+			"Caribou",
+			"Odessa"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "lunch.sublime-project",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 45,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/johnme/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 228,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								220,
+								220
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "lunch.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"nor",
+				"css/normalize.css"
+			],
+			[
+				"ske",
+				"css/skeleton.css"
+			],
+			[
+				"",
+				"index.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 190.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

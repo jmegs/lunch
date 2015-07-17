@@ -9,74 +9,13 @@
   </div>
  
 	{{> randomizer}}
-	<div class="row">
-		{{> list}}
-	</div>
+	{{> list}}
 	{{> addPlaceForm}}
 
 	</div> <!--/container-->
 </body>
 
-<template name="random">
-	
-</template>
 
-<template name="randomizer">
-	<div class="row randomizer">
-	<div class="surpriseMe">
-			<button class="button-primary randomize">Surprise Me</button>
-		</div>
-		
-	<div class="results">
-		<strong>{{pick.name}}</strong><br />
-		{{pick.location}} <br />
-		{{pick.description}}
-	</div>
-	
-	</div>
-</template>
 
-<template name="addPlaceForm">
-		
-		<form>
-		<h6>Add a new place:</h6>
-			<div class="row">
-				<div class="four columns">
-					<label for="placeName">Name</label>
-					<input type="text" name="placeName" class="u-full-width" placeholder="Cafe Kabila">
-				</div>
-				<div class="four columns">
-					<label for="placeLoc">Location</label>
-					<input type="text" name="placeLoc" class="u-full-width" placeholder="39th btwn 7th and 8th">
-				</div>
-				<div class="four columns">
-					<label for="placeDesc">Description</label>
-					<input type="text" name="placeDesc" class="u-full-width" placeholder="Awesome sandwiches and soup">
-				</div>
-				
-					
-			</div>
-			<button type="submit" class="btn btn-default">Submit</button>
-		</form>
-</template>
 
-<template name="list">
-	<table class="table u-full-width">
-		<thead>
-			<tr>
-				<th>Name</th>
-				<th>Location</th>
-				<th>Description</th>
-			</tr>
-		</thead>
-		<tbody>
-		{{#each place}}
-		<tr>
-			<td>{{name}}</td>
-			<td>{{location}}</td>
-			<td>{{description}}</td>
-		</tr>
-		{{/each}}
-		</tbody>
-	</table>
-</template>
+

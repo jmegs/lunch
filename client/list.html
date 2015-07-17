@@ -1,0 +1,22 @@
+<template name="list">
+	<div class="row">
+		<table class="table u-full-width">
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Location</th>
+					<th>Description</th>
+				</tr>
+			</thead>
+			<tbody>
+			{{#each place}}
+			<tr>
+				<td>{{name}}</td>
+				<td>{{location}}</td>
+				<td>{{description}}</td>
+			</tr>
+			{{/each}}
+			</tbody>
+		</table>
+	</div>
+</template>
