@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
 				"min-",
 				"min-height"
 			],
@@ -59,22 +67,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "lunch.sublime-project",
-			"settings":
-			{
-				"buffer_size": 45,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/johnme/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-			"settings":
-			{
-				"buffer_size": 228,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -83,21 +75,33 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 201.0,
-		"last_filter": "syn javas",
+		"height": 71.0,
+		"last_filter": "javascript",
 		"selected_items":
 		[
 			[
-				"syn javas",
+				"javascript",
 				"Set Syntax: JavaScript"
 			],
 			[
-				"instal",
-				"Package Control: Install Package"
+				"json",
+				"Set Syntax: JSON"
 			],
 			[
-				"remove",
-				"Package Control: Remove Package"
+				"syn han",
+				"Set Syntax: Handlebars"
+			],
+			[
+				"syn handl",
+				"Set Syntax: Handlebars"
+			],
+			[
+				"syn hand",
+				"Set Syntax: Handlebars"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
 			],
 			[
 				"install",
@@ -106,6 +110,22 @@
 			[
 				"re",
 				"Package Control: Remove Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove packag",
+				"Package Control: Remove Package"
+			],
+			[
+				"syn javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
 			],
 			[
 				"remove pac",
@@ -156,10 +176,6 @@
 				"Set Syntax: Markdown"
 			],
 			[
-				"insta",
-				"Package Control: Install Package"
-			],
-			[
 				"bash",
 				"Set Syntax: Shell Script (Bash)"
 			],
@@ -200,7 +216,7 @@
 				"Set Syntax: HTML"
 			]
 		],
-		"width": 388.0
+		"width": 466.0
 	},
 	"console":
 	{
@@ -221,13 +237,35 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/johnme/Documents/Code/lunch"
+		"/Users/johnme/Documents/Code/lunch",
+		"/Users/johnme/Documents/Code/lunch/client",
+		"/Users/johnme/Documents/Code/lunch/lib"
 	],
 	"file_history":
 	[
-		"/Users/johnme/Downloads/dchh-ep27-30.rss",
+		"/Users/johnme/Documents/Code/lunch-picker/lunch.js",
+		"/Users/johnme/Documents/Code/lunch/lib/lunch.css",
+		"/Users/johnme/Documents/Code/lunch/lib/collections.js",
+		"/Users/johnme/Documents/Code/lunch/server/startup.js",
+		"/Users/johnme/Documents/Code/lunch/server/publish.js",
+		"/Users/johnme/Documents/Code/lunch/lib/routes.js",
+		"/Users/johnme/Documents/Code/lunch/client/subscribe.js",
+		"/Users/johnme/Documents/Code/lunch/client/list.html",
 		"/Users/johnme/Documents/Code/lunch/lunch.css",
+		"/Users/johnme/Documents/Code/lunch/lib/constants.js",
+		"/Users/johnme/Documents/Code/lunch/main.html",
+		"/Users/johnme/Documents/Code/lunch/client/randomizer.html",
+		"/Users/johnme/Documents/Code/lunch/client/_addPlaceForm.html",
+		"/Users/johnme/Documents/Code/lunch/client/list.js",
+		"/Users/johnme/Documents/Code/lunch/client/randomizer.js",
+		"/Users/johnme/Documents/Code/lunch/server/methods.js",
+		"/Users/johnme/Documents/Code/lunch/lunch.html",
+		"/Users/johnme/Documents/Code/lunch/client/_addPlaceForm.js",
+		"/Users/johnme/Documents/Code/lunch/lunch.js",
+		"/Users/johnme/Documents/Code/lunch/client/addPlaceForm.html",
+		"/Users/johnme/Documents/Code/lunch/client/events.js",
 		"/Users/johnme/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/johnme/Downloads/dchh-ep27-30.rss",
 		"/Users/johnme/Documents/Code/lunch/.meteor/packages",
 		"/Users/johnme/Documents/Code/random-lunch-generator/js/lunch.js",
 		"/Users/johnme/Library/Application Support/Sublime Text 3/Packages/User/helper",
@@ -236,7 +274,6 @@
 		"/System/Library/Frameworks/Social.framework/Versions/A/Headers/SLComposeServiceViewController.h",
 		"/Users/johnme/.bash_profile",
 		"/Users/johnme/Documents/Code/lunch-picker/app.js",
-		"/Users/johnme/Documents/Code/lunch-picker/lunch.js",
 		"/Users/johnme/Documents/Code/lunch-picker/index.html",
 		"/Users/johnme/Documents/Code/lunch-picker/style.css",
 		"/Users/johnme/Library/Application Support/Sublime Text 3/Packages/User/Base File.sublime-settings",
@@ -287,6 +324,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"h3",
 			"three",
 			"four",
 			"form",
@@ -321,184 +359,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "lunch.sublime-project",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 45,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
-							],
-							"syntax": "Packages/JavaScript/JSON.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/Users/johnme/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 228,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								220,
-								220
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
-							],
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -508,7 +370,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 34.0
 	},
 	"layout":
 	{
@@ -591,7 +453,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 190.0,
+	"side_bar_width": 214.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
